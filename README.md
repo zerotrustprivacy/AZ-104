@@ -117,12 +117,12 @@ Study notes for the Azure Admin exam
  </ol>
 </ul></p>
 
-
+<h3>SSPR or self-service password reset</h3>
 <p>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li>REduces the load on admins by allowing users to fix password problems themselves</li>
+<li>Customizable</li>
+<li>Verify the identity of the user by: localization, notification, verification, authentication, password reset</li>
 </ul></p>
 
 
