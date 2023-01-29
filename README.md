@@ -78,11 +78,27 @@ Study notes for the Azure Admin exam
 <h3>Azure Policy</h3>
 <p>
 <ul>
-<li>Create management groups to efficiently manage multiple subscriptions</li>
-<li></li>
-<li></li></ul></p>
+<li>Create management groups to efficiently manage multiple subscriptions. You can create a management group with Axure Policy by using the Azure portal, PowerShell, or the Azure CLI.</li>
+<li>Management groups have a directory unique identifier and a display name. This ID is used to submit commands on the management group. It cannot be changed after it's created.</li>
+ <li>Specifiy the resource types that you can deploy with Azure Policy</li>
+<li>Advantages:</li>
+  <p><ol>
+  <li>Enforce rules and compliance</li>
+  <li>Apply policies at scale</li>
+  <li>Perform remediation</li>
+  <li>Exercise governance</li>
+  </ol></p>
+ <li>Policy definition - describes compliance and the actions to complete when the conditions are met. Multiple policy definitions are called initiative definitiion</li>
+ <li>4 Steps to create policy definitions:</li>
+ <p><ol>
+  <li>Create policy definitions - some are built-in</li>
+  <li>Create an initiative definition - use JSON format, also some built-in initiatives</li>
+  <li>Scope the initiative definition - control how it is applied to resources; limit the scope</li>
+  <li>Determine compliance</li>
+</ol></p>
+ </ul></p>
 
-
+<h3>RBAC</h3>
 <p>
 <ul>
 <li></li>
