@@ -64,16 +64,21 @@ Study notes for the Azure Admin exam
 <li>M365 groups: provide collaboration opportunities; shared mailbox, calendar, files, SharePoint site, etc.</li></ol></p>
 </ul></p>
 
-
+<h3>Subscriptions</h3>
 <p>
 <ul>
-<li></li>
-<li></li>
-<li></li></ul></p>
+<li>Subscriptions are a logical unit of Azure services that are linked to an Azure account.</li>
+<li>Multiple subscriptions can be linked to the same Azure account. More than one Azure account can be linked to the same subscription.</li>
+<li>Subscription types: Free, Pay-As-You-Go (monthly billing), Enterprise, Student</li>
+<li>Cost Management: shows organizational cost and usage patterns with advanced analytics. Monitors subscription billing and resource usage.</li>
+<li>Apply resource tagging to organize Azure resources by categories</li>
+<li>Apply cost savings to help you gain significant cost savings for you: Reservations, Azure hybrid benefits, Azure credits, Budgets, Pricing calculator</li>
+</ul></p>
 
+<h3>Azure Policy</h3>
 <p>
 <ul>
-<li></li>
+<li>Create management groups to efficiently manage multiple subscriptions</li>
 <li></li>
 <li></li></ul></p>
 
