@@ -101,9 +101,20 @@ Study notes for the Azure Admin exam
 <h3>RBAC</h3>
 <p>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li>RBAC helps you manage who can access your Azure resources. For example, allowing users to manage VMs in a subscription and allow another to manage vnets</li>
+ <li>Concepts: </li>
+ <ol>
+  <li>Security principal</li>
+  <li>role definition - sets of permissions that are defined in a JSON file. Each permission set has a name: <b>Actions, NotActions, DataActions, AssignableScopes</b></li>
+  <li>Scope - specify how the role can be assigned</li>
+  <li>Assignment - limits permissions for a requestor (user, group, service principal)</li>
+ </ol>
+ <li>3 types of access management roles: </li>
+ <ol>
+  <li>Classic subscription admin roles - manage access to Azure resources</li>
+  <li>Azure RBAC roles - defined for a requestor or resource; applied at multiple levels (root, subscriptions, resource group, etc)</li>
+    <li>Azure AD admin roles - manage resources in Azure AD (users, groups, domains)</li>
+ </ol>
 </ul></p>
 
 
