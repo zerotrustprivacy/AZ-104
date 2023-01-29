@@ -52,7 +52,7 @@ Study notes for the Azure Admin exam
 <li>If resources already exists and no change is detected, no action is taken. If property is changes, the resource is updated</li>
 </ul></p>
 
-<h3>Manage identities and governance in Azure</h3>
+<h2>Manage identities and governance in Azure</h2>
 <p>
 <ul>
 <li>Access to Azure resources is controlled through user accounts and identities that are defined in Azure AD. Every user needs an Azure user account for resource use.</li>
