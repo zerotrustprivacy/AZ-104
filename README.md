@@ -170,17 +170,25 @@ Study notes for the Azure Admin exam
 <li>Geo-redundant storage (GRS) - replicates your data to another data center in secondary region, data is read-only, 16 9s durability</li>
 <li>Geo-zone-redundant storage (GZRS) - high availability, data is durable during a complete regional outage or disaster</li>
 </ol>
+ <li>Configure custom domains to storage accounts with direct mapping (CNAME) or Intermediary domain mapping (asverify)</li>
+ <li>Firewalls and vnets can restrict access to your storage account from specific subnets. Configure the service to allow acces to one or more public IP ranges. The subnets and vnets nust exist in the same Azure region or region pair as the storage account.</li>
 </ul></p>
 
-
+<h3>Azure Blob Storage</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
-</ul></p>
+ <li>Stores any type of text or binary data: text documents, images, video files and app installers</li>
+ <li>3 resources to store and manage data: Azure storage account, containers, blobs in container</li>
+ <li>All blobs must be in a container. Containers store an unlimited number of blobs. Azure accounts store an unlimited number of containers.</li>
+ <li><b>3 tiers: </b></li>
+  <ol>
+ <li>Hot tier- frequent reads and writes of objects</li>
+ <li>Cold tier - large amounts of data that is infrequently accessed</li>
+   <li>Archive tier - offline, several hours of retrieval latency, data must remain in Archive for at least 180 days or it's deleted.</li>
+  </ol>
+ <li>Configure lifecycle management policy rules to transition or expire data based on needs <b>"If - Then"</b></li>
+ <li><mark>Blob object replication</mark> requires blob versioning on source and destination accounts. Doesn't support blob snapshots.</li>
+ <li><b>Blob Types: </b>Block blobs, Append blobs, Page blobs. After it's created, you cannot change the type</li>
+   </ul></p>
 
 <p><ul>
  <li></li>
