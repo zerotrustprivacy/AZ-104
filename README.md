@@ -1,7 +1,7 @@
 # AZ-104
 Study notes for the Azure Admin exam
 <p>https://learn.microsoft.com/en-us/certifications/exams/az-104</p>
-<h2>Pre-reqs for Admins</h2>
+<h1>Pre-reqs for Admins</h1>
 <h3>Azure Resource Manager</h3>
 <p>
 <ul>
@@ -53,7 +53,7 @@ Study notes for the Azure Admin exam
 <li>If resources already exists and no change is detected, no action is taken. If property is changes, the resource is updated</li>
 </ul></p>
 
-<h2>Manage identities and governance in Azure</h2>
+<h1>Manage identities and governance in Azure</h1>
 <p>
 <ul>
 <li>Access to Azure resources is controlled through user accounts and identities that are defined in Azure AD. Every user needs an Azure user account for resource use.</li>
@@ -142,3 +142,151 @@ Study notes for the Azure Admin exam
  </ol>
  <li><b>Azure AD join</b> - provides access to org apps and resources. Connect your device to Azure AD by registing and joining</li>
 </ul></p>
+
+<h1>Implement and Manage Storage in Azure</h1>
+----------------------------
+<h3>Storage Accounts</h3>
+<p><ul>
+ <li>Azure storage can be used to store files, messages, tables, etc. It is used by IaaS VMs and PaaS cloud services.</li>
+ <li>2 tiers : Standard (HDD) and Premium (SSD)</li>
+ <li><b>Storage services:</b> </li>
+ <ol>
+ <li>Azure Blob Storage (containers): A massively scalable object store for text and binary data; access using the NFS protocol; can be accessed from anywhere in the world</li>
+ <li>Azure Files: Managed file shares</li>
+ <li>Azure Queue Storage: A messaging store for reliable messaging between app components; 64 KB</li>
+  <li>Azure Table Storage (Cosmos DB): A NoSQL store for schemaless storage of structured data or relational data</li>
+ </ol>
+</ul></p>
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
