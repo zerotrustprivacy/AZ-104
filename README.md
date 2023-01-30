@@ -120,16 +120,23 @@ Study notes for the Azure Admin exam
 <h3>SSPR or self-service password reset</h3>
 <p>
 <ul>
-<li>REduces the load on admins by allowing users to fix password problems themselves</li>
+<li>Reduces the load on admins by allowing users to fix password problems themselves</li>
 <li>Customizable</li>
 <li>Verify the identity of the user by: localization, notification, verification, authentication, password reset</li>
 </ul></p>
 
 
-
+<h3>Azure AD</h3>
 <p>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li>Multi-tenant cloud-based directiory. Helps support user access to resources and apps internal and external</li>
+<li>Secure access with SSO, MFA, Federation services</li>
+<li>Self-service support. No organization units or group policy objects (GPOs) </li>
+ <li>Azure AD editions</li>
+ <ol>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+ </ol>
 </ul></p>
