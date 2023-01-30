@@ -156,6 +156,20 @@ Study notes for the Azure Admin exam
  <li>Azure Queue Storage: A messaging store for reliable messaging between app components; 64 KB</li>
   <li>Azure Table Storage (Cosmos DB): A NoSQL store for schemaless storage of structured data or relational data</li>
  </ol>
+ <li><b>Account Types: </b></li>
+ <ol>
+ <li>Standard general - purpose V2 </li>
+ <li>Premium block blobs - Blob Storage </li>
+ <li>Premium file share - Azure files</li>
+ <li>Premium page blubs- Page blobs only</li>
+ </ol>
+ <li><b>Replication Strategies: </b></li>
+ <ol>
+ <li>Locally redundant storage (LRS) - data easily restructured after loss, constantly changing, app is restricted to replication with a country or region</li>
+<li>Zone redundant storage (ZRS) - not available in all regions, requires physical data movement, resides in its own AZ</li>
+<li>Geo-redundant storage (GRS) - replicates your data to another data center in secondary region, data is read-only, 16 9s durability</li>
+<li>Geo-zone-redundant storage (GZRS) - high availability, data is durable during a complete regional outage or disaster</li>
+</ol>
 </ul></p>
 
 
