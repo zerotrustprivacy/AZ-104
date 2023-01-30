@@ -1,5 +1,6 @@
 # AZ-104
 Study notes for the Azure Admin exam
+<p>https://learn.microsoft.com/en-us/certifications/exams/az-104</p>
 <h2>Pre-reqs for Admins</h2>
 <h3>Azure Resource Manager</h3>
 <p>
@@ -134,9 +135,10 @@ Study notes for the Azure Admin exam
 <li>Self-service support. No organization units or group policy objects (GPOs) </li>
  <li>Azure AD editions</li>
  <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Free - user and group management, SSO</li>
+  <li>M365 apps -IAM for M365 apps </li>
+  <li>P1 - on-prem and cloud resource access, dynamic groups, self-service group management</li>
+  <li>P2 - Azure AD identity protections, conditional access, just-in-time access</li>
  </ol>
+ <li><b>Azure AD join</b> - provides access to org apps and resources. Connect your device to Azure AD by registing and joining</li>
 </ul></p>
