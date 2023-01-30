@@ -190,13 +190,19 @@ Study notes for the Azure Admin exam
  <li><b>Blob Types: </b>Block blobs, Append blobs, Page blobs. After it's created, you cannot change the type</li>
    </ul></p>
 
+<h3>Storage Security</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li><b>Characteristics: </b></li>
+ <ol>
+ <li>Encryption - data is encrypted automatically and decrypted before it's retrieved. All data is encrypted through 256-bit advanced encryption standard (AES)</li>
+ <li>Authentication</li>
+ <li>Data in transit</li>
+ <li>Disk encryption</li>
+  <li>Shared access signatures - uniform resource identifier(URI) that grants <b>RESTRICTED</b> access rights to storage resources; time interval access, read & write permissions; <b>2 Types: </b>account level (delegates to multiple storage services) and service level (delegates in only one storage service). You can configure IP addresses and specific protocols to accept the SAS</li>
+  <li>Authorization</li>
+ </ol>
+ <li> Always use HTTPS for creation and distribution. Require clients to auto renew the SAS. Define minimum access permissions for resources </li>
+ <li>Use access keys for prod apps. <b>Access keys provide unrestricted access to the storage resources</b></li>
 </ul></p>
 
 
