@@ -251,7 +251,10 @@ Study notes for the Azure Admin exam
 </ul></p>
 
 
-
+---------------------------
+<h1>Deploy and manage Azure compute resources</h1>
+----------------------------
+<h3>Configure VMs</h3>
 <p><ul>
  <li></li>
  <li></li>
