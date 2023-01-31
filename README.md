@@ -226,6 +226,7 @@ Study notes for the Azure Admin exam
 
 <h3>Azure Storage Explorer</h3>
 <p><ul>
+<li>MAnage multiple storage accounts in multiple subscriptions and use the Storage Emulator or Azurite to connect to Azure Storage types.</li>
  <li>Requires both management and data layer permissions to allow full access to resources. Azure AD permissions need to allow full access. </li>
  <li>Connect to storage account associated with your Azure subscriptions, services that share other Azure subsciptions, manage local storage by using the Azure storage emulator</li>
  <li>Attach a storage account and a service with a SAS</li>
