@@ -237,9 +237,16 @@ Study notes for the Azure Admin exam
 </ul></p>
 
 
-
+<h3>Azure Storage with SAS</h3>
 <p><ul>
- <li></li>
+ <li>files are accessed by HTTP/HTTPS. </li>
+ <li>4 options for blob storage: </li>
+ <ol>
+ <li>public access - anonymous public read access for containers and blobs</li>
+ <li>Azure AD - securely access Azure storage without storing any credentials in your code. Takes a two-step approach by authenticating a token to pass to Azure Storage</li> 
+ <li>shared key - 512 bit access keys for every storage account that is created</li> 
+ <li>SAS</li>
+ </ol>
  <li></li>
  <li></li>
  <li></li>
