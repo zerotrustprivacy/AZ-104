@@ -262,10 +262,10 @@ Study notes for the Azure Admin exam
  <li>VNets pride private connectivity between VMs. Services within the same vnet can access one another.</li>
  <li>Location can limit your options. Regions have different hardware available.</li>
  <li>You can resize the VM but be cautious as this can cause an outage</li>
-  <li></li>
- <li></li>
- <li></li>
- <li></li>
+  <li>All VMs have at least two disks, OS disk and temporary disk. All disks are stored as virtual hard disks (VHD)</li>
+ <li>Choose Premium storage to gain high performance. Using multiple disks gives you up to 256 TB of storage per virtual machine.</li>
+ <li>Use RDP to connect to Windows servers and SSH to connect to Linux-based VMs. The public key is placed on your Linux VM. Private key remains on your local system.</li>
+ <li>Azure Bastion is a PaaS service that provides secure and seamless RDP?SSH connection to you VMs over SSL. You don't need a public IP address.</li>
  <li></li>
 </ul></p>
 
