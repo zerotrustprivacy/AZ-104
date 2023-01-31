@@ -266,7 +266,14 @@ Study notes for the Azure Admin exam
  <li>Choose Premium storage to gain high performance. Using multiple disks gives you up to 256 TB of storage per virtual machine.</li>
  <li>Use RDP to connect to Windows servers and SSH to connect to Linux-based VMs. The public key is placed on your Linux VM. Private key remains on your local system.</li>
  <li>Azure Bastion is a PaaS service that provides secure and seamless RDP?SSH connection to you VMs over SSL. You don't need a public IP address.</li>
- <li></li>
+ <li>Default network settings allows all outboud traffic but no inbound unless it's within the vnet.</li>
+<li>Availability sets ensure that a group of VMs are deployed together and prevent single point of failure. All VMs in a set should perform an identical set of functionalities. VMs can only be added to an availability set when the VM is created. </li>
+<li>Fault domains - group of nodes that represent a physical unit of failure. Defines a group of VMs that share a common set of hardware (or switches). Two fault domains work together to mitigate against hardware failures, network outages, updates, etc.</li>
+<li>Availability Zones (AZs) - High availability that protects your apps and data from failures. This is a combinations of fault domains and and update domain. These are unique physical locations within a region, made up of one or more datacenters.</li>
+<li>Vertical Scaling - Scaling up or down to decrease or increase the VM <b>size</b></li>
+<li>Horizontal Scaling - Scale out or Scale in to adjust the <b>number</b> of VMs</li>
+<li>Scale Sets - used to deploy and manage a set of identical VMs to auto increase the number of your VMs based on demand and decrease as demand decreases.</li>
+<li>Autoscale - allows you to dynamically scale your configs to meet changing workload demands.</li>
 </ul></p>
 
 
