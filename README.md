@@ -245,13 +245,8 @@ Study notes for the Azure Admin exam
  <li>public access - anonymous public read access for containers and blobs</li>
  <li>Azure AD - securely access Azure storage without storing any credentials in your code. Takes a two-step approach by authenticating a token to pass to Azure Storage</li> 
  <li>shared key - 512 bit access keys for every storage account that is created</li> 
- <li>SAS</li>
+ <li>SAS - lets you grant read-only or read-write access, expiration time, etc. Permission to a storage resource.</li>
  </ol>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
 </ul></p>
 
 
