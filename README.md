@@ -224,14 +224,16 @@ Study notes for the Azure Admin exam
 </ul></p>
 
 
-
+<h3>Azure Storage Explorer</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Requires both management and data layer permissions to allow full access to resources. Azure AD permissions need to allow full access. </li>
+ <li>Connect to storage account associated with your Azure subscriptions, services that share other Azure subsciptions, manage local storage by using the Azure storage emulator</li>
+ <li>Attach a storage account and a service with a SAS</li>
+ <li>Attach external storage accounts so storage accounts can be easily shared - Account name and Account key is needed for connection</li>
+ <li>Create Azure import/export job to import/export data from physical disks into Azure Blob and vice versa</li>
+ <li>Securely transfer large amounts of data to Azure Blob Storage or Azure Files</li>
+ <li>WAImportExport is used to prepare drives before importing data and repair corrupted and missing files after data transfer. </li>
+ <li>AZCopy - method for transferring data, command-line utility for copying data to and from Azure Blob and Azure Files. Supports Azure data lake storage and is built into <b>Azure Storage Explorer</b></li>
 </ul></p>
 
 
