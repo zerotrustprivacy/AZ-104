@@ -177,6 +177,7 @@ Study notes for the Azure Admin exam
 <h3>Azure Blob Storage</h3>
 <p><ul>
  <li>Stores any type of text or binary data: text documents, images, video files and app installers</li>
+ <li>Good for accessing data from anywhere. Ideal for streaming and random-access.</li>
  <li>3 resources to store and manage data: Azure storage account, containers, blobs in container</li>
  <li>All blobs must be in a container. Containers store an unlimited number of blobs. Azure accounts store an unlimited number of containers.</li>
  <li><b>3 tiers: </b></li>
@@ -206,14 +207,20 @@ Study notes for the Azure Admin exam
 </ul></p>
 
 
-
+<h3>Azure file shares and blob data</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Azure files uses SMB protocol port 445. Stores data as true directory objects in file shares. </li>
+ <li>Apps that run in Az VMs or cloud services can mount an Azure files storage to access file data</li>
+ <li>Supplement on-prem with Azure Files. Ideal for lift and shift application</li>
+ <li>Enable secure transfer. Azure Files has the capability to share snapshots of file shares.</li>
+ <li>Cloud tiering: File sync enables you to cache several Azure Files. Backs up your on-prem data. Restores file metadata immediately and recall rapidly</li>
+ <li>Steps for deploying Azure File Sync:</li>
+ <ol>
+  <li>Deploy the storage sync service</li>
+  <li>Prepare each Windows Server to use Azure File Sync</li>
+  <li>Install Azure File Sync Agent</li>
+  <li>Register each Windows Server with the Storage Sync service</li>
+ </ol>
 </ul></p>
 
 
