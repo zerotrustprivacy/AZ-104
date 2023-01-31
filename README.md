@@ -256,8 +256,13 @@ Study notes for the Azure Admin exam
 ----------------------------
 <h3>Configure VMs</h3>
 <p><ul>
- <li></li>
- <li></li>
+ <li>Azure VMS are the basis of IaaS. VMs provide their own OS, storage and networking.</li>
+ <li>Quickly Scale up and Down on demand and pay for what you use.</li>
+ <li>Running websites and applications can be less expensive</li>
+ <li>VNets pride private connectivity between VMs. Services within the same vnet can access one another.</li>
+ <li>Location can limit your options. Regions have different hardware available.</li>
+ <li>You can resize the VM but be cautious as this can cause an outage</li>
+  <li></li>
  <li></li>
  <li></li>
  <li></li>
