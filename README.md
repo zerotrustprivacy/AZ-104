@@ -277,25 +277,26 @@ Study notes for the Azure Admin exam
 </ul></p>
 
 
-
+<h3>Virtual machine extensions</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>VM extensions are small apps that provide post-deployment confis and auto tasks for Azure VMs. They manage your VMs</li>
+ <li>Use Azure CLI, PowerShell ARM templates and the portal to manage extensions</li>
+ <li>Can be a subset of a larger deployment for your VM</li>
+ <li>You can also use PowerShell command to run scripts with Custom Script Extensions. Requires URI.</li>
+ <li>Desired state configs - management platform in Windows PowerShell to enable deploying and managing config data for software services and the environment. Provides a set of PowerShell language extensions, cmdlets and resources</li>
+ <li>Custom scripts time out at 90 minutes</li>
 </ul></p>
 
 
-
+<h3>Azure App Service Plans</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>App Service plan is the scale unit of App Service applications. Apps run and scale in a different manner</li>
+ <li>Free or Shared tier - Apps can't scale</li>
+ <li>Basic, Standard, Premium or Isolated - Apps run on all VM instances configured. Multiple apps in the same plan share the same VM instances.</li>
+ <li>I solate your app in a new App Service plan when the app is resource-sensitive or you want to scale independently</li>
+ <li>Scaling up increases the amount of CPU, memory and disk space but gives you extra features like dedicated VMs and custom domains and certs.</li>
+ <li>Consider testing your web app by using Free Tier then move up manually. Autoscale to support users and reduce costs</li>
+ <li>Autoscale allows you to have the right amount of resources to handle the load on your apps: There is metric-based and time-based rules (schedule-based)</li>
 </ul></p>
 
 
