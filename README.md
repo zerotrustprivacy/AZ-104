@@ -328,14 +328,21 @@ Study notes for the Azure Admin exam
 
 
 
-
+<h3>Azure Kubernetes Service (AKS)</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Azure operates as a hosted Kubernetes service and performs critical functions like health monitoring and maintenance.</li>
+ <li>Kubelet Agent - processes the orchestration requests from the Azure managed node</li>
+ <li>ClusterIP service - create an internal IP address for use within the AKS cluster</li>
+ <li>Pools - A group os nodes w/identical configuration</li>
+ <li>Nodes - Individual VM that runs containerized apps</li>
+ <li>Pods - Single instance of an app; can contain multiple containers</li>
+ <li>Container - A lightweight & portable image that contains software and its dependencies</li>
+ <li>Deployment - One or more identical pods</li>
+ <li>Manifest - YAML file that describes a deployment</li>
+ <li>Nodes are instances of Azure VMs. Connected to a virtual network which provides inboung and outbound connectivity</li>
+ <li>Network traffic can be distributed by using a load balancer. Complex routing of app traffic can be achieved with Ingress Controllers.</li>
+ <li>Your app workload uses local, fast data storage on a node that's not needed after the pods are deleted. Multiple pods share the same data volumes or reattach data volumes if the pod if rescheduled on a different node</li>
+ <li>Azure Disks can use Azure Premium storage backed by a high-performance SSDs or Azure Standard storage. Azure Files to mount an SMB 3.0 share backed by an Azure storage account to pods. Backed by regular HDDs</li>
 </ul></p>
 
 
