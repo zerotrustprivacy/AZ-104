@@ -345,6 +345,34 @@ Study notes for the Azure Admin exam
  <li>Azure Disks can use Azure Premium storage backed by a high-performance SSDs or Azure Standard storage. Azure Files to mount an SMB 3.0 share backed by an Azure storage account to pods. Backed by regular HDDs</li>
 </ul></p>
 
+<h1>Monitor and back up Azure resources</h1>
+<h3>Configure file and folder backups</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
 
 
 <p><ul>
@@ -356,3 +384,48 @@ Study notes for the Azure Admin exam
  <li></li>
 </ul></p>
 
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<h1>Configure and Manage VNets</h1>
+<h3></h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
