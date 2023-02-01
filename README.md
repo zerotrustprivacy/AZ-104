@@ -301,26 +301,29 @@ Study notes for the Azure Admin exam
 
 
 
-
+<h3>Configure Azure App Service</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Provides Quickstarts for serveral products to help you deploy Windows and Linux apps.</li>
+ <li>Multiple languages, DevOps optimization, Global scale with high availability, connections to SaaS platforms & on-prem data, security & compliance</li>
+ <li>Names for apps must be unique, operating system can be Linux or Windows, the Region you choose affects the Service plans available</li>
+ <li>Always on, encryption at rest and transmitted</li>
+ <li>Continuous deployment pushing out new features & bug fixes in a fast and repetitive pattern w/ minimal impact on end users (Azure DevOps, GitHub, Bitbucket)</li>
+ <li>Deployment slots - live apps that have their own hostnames. Available in Standard, Premium and Isolated App Service pricing tiers. Validate changes to your app in staging, restore last known good site, Auto Swap when you want to deploy your app continuously with zero cold starts and zero downtime for app customers</li>
+   <ol><li>When you clone a configuration, connection strings follow the content</li></ol>
+ <li>Azure Application Insights - lets you monitor live applications to contiuously improve the performance and usability of apps</li>
 </ul></p>
 
 
 
-
+<h3>Azure Container Instances</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Virtualize the Operating System to run multiple applications within the same instance of an OS while maintaining isolation</li>
+ <li>Increased flexibility and speed. Simplifies testing</li>
+ <li>Can be directly exposed to the internet with an IP address & FQDN</li>
+ <li>Container Groups - collection of containers that share a lifecycle, resources, local network and storage volumes.</li>
+ <li>Two common ways to deploy a multi-container group: ARM templates and YAML</li>
+ <li>Container groups can share an external-facing IP address, one or more ports, and a DNS label with a FQDN</li>
+ <li>Docker - enables developers to host apps within a container. A container in Docker is essentially a standalone package that contains everything needed to execute a pece of software. Available in both Linux and Windows. Dockerfile is a test file on how to build a Docker image. "docker build" command builds images. Pull/Push</li>
 </ul></p>
 
 
