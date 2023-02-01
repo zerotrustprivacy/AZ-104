@@ -359,6 +359,80 @@ Study notes for the Azure Admin exam
  <li>Azure Backup relies on the Microsoft Azure Recovery Services (MARS) agent to be installed on the Windows client/server</li>
 </ul></p>
 
+
+<h3>Configure VM backups</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h3>Configure Azure Monitor</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+<h3>Configure Azure alerts</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+<h3>Configure Log Analytics</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h3>Configure Network Watcher</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h3>Impove Incident reponse</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h3>Montior performance with Azure Monitor VM Insights</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h1>Configure and Manage VNets</h1>
 <h3>Network Security Groups</h3>
 <p><ul>
  <li>Contain a list of security rules that allow/deny inbound or outbound network traffic</li>
@@ -371,6 +445,7 @@ Study notes for the Azure Admin exam
  <li>Outbound traffic: Default allows all outbound to the internet. If an NSG is on the subnet or NIC, these rules override the default. Must define a rule on the NIC and subnet to deny all outbound traffic.</li>
 </ul></p>
 
+<h3></h3>
 <p><ul>
  <li></li>
  <li></li>
@@ -425,7 +500,6 @@ Study notes for the Azure Admin exam
 
 
 
-<h1>Configure and Manage VNets</h1>
 <h3></h3>
 <p><ul>
  <li></li>
