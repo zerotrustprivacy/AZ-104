@@ -348,21 +348,27 @@ Study notes for the Azure Admin exam
 <h1>Monitor and back up Azure resources</h1>
 <h3>Configure file and folder backups</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Offers 2 types of replication: LRS and GRS</li>
+ <li>Recovery Services vault (<b>REQUIRED</b>)-  storage entity that backups data for Azure services such as IaaS VMs and Azure SQL databases. Create up to 500 recovery services vaults per Region</li>
+ <li>Steps:</li>
+ <ol>
+  <li>Create the recovery services vault</li>
+ <li>Download the agent credential file</li>
+ <li>Install and register agent</li>
+  <li>Configure the backup</li> </ol>
+ <li>Azure Backup relies on the Microsoft Azure Recovery Services (MARS) agent to be installed on the Windows client/server</li>
 </ul></p>
 
+<h3>Network Security Groups</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Contain a list of security rules that allow/deny inbound or outbound network traffic</li>
+ <li>Associated with a subnet or network interface card (NIC)</li>
+ <li>DMZ acts as a buffer between resources within you VNet and the internet</li>
+ <li>Default rules deny all inbound and allow all outbound. You cannot remove the default security rules.</li>
+ <li>Each rule has a priority value. <b>The lower the number, the higher the priority.</b></li>
+ <li>For inbound traffic, NSG rules are processed then any associated network interfaces. Outbound traffic is the opposite.</li>
+ <li>Inbound traffic: rules on the NIC or subnet, overrule the NSG in the same VM. Must define a rule on the NIC and subnet to deny all inbound traffic</li>
+ <li>Outbound traffic: Default allows all outbound to the internet. If an NSG is on the subnet or NIC, these rules override the default. Must define a rule on the NIC and subnet to deny all outbound traffic.</li>
 </ul></p>
 
 <p><ul>
