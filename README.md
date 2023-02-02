@@ -362,12 +362,16 @@ Study notes for the Azure Admin exam
 
 <h3>Configure VM backups</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Several backup options: Azure Backup, Azure Site Recovery, Managed disk snapshots</li>
+ <li>Images vs Snapshots: a snapshot is a copy of a disk at the point in time the snapshot was taken. An image includes all of the disks attached to the VM.</li>
+ <li>Backup VMs:</li>
+ <ol>
+ <li>Create a recovery services vault</li>
+ <li>Use the portal to define the backup</li>
+  <li>Backup the VM</li> </ol>
+ <li>MABS for snapshots, full flex</li>
+ <li>Azure Site Recovery - ensures business continuity by keeping apps and workloads running during outages. Set up and manage replication and failover. </li>
+ <li>Soft delete state only retains data for 14 days</li>
 </ul></p>
 
 <h3>Configure Azure Monitor</h3>
@@ -445,17 +449,17 @@ Study notes for the Azure Admin exam
  <li>Outbound traffic: Default allows all outbound to the internet. If an NSG is on the subnet or NIC, these rules override the default. Must define a rule on the NIC and subnet to deny all outbound traffic.</li>
 </ul></p>
 
-<h3></h3>
+<h3>Azure Firewall</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>cloud-based network security service that protects your Azure Virtual Network resources. It's a fully stateful firewall </li>
+ <li>Azure Firewall uses a static public IP address for your virtual network resources. External firewalls identify traffic originating from your virtual network by the IP address.</li>
+ <li>Azure Firewall lets you limit outbound HTTP/S traffic or Azure SQL traffic to a specified list of fully qualified domain names (FQDN) including wild cards</li>
+ <li> the recommended approach is to implement a hub-spoke network topology. The hub is a virtual network in Azure that acts as a central point of connectivity to your on-premises network. Spokes are virtual networks that peer with the hub, and can be used to isolate workloads</li>
+ <li> three kinds of rules you can configure for Azure Firewall: NAT, network, and application</li>
+ <li>An application rule to filter traffic based on an FQDN address</li>
 </ul></p>
 
-
+<h3>Configure Azure DNS</h3>
 <p><ul>
  <li></li>
  <li></li>
