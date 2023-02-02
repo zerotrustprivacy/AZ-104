@@ -461,27 +461,28 @@ Study notes for the Azure Admin exam
 
 <h3>Configure Azure DNS</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Azure DNS enables you to host your DNS domains in Azure. Azure applies an initial domain name to your initial domain instance. Custom domain name provides a simplified form of your domain name to support specific users or tasks. Must be globally unique</li>
+ <li>DNS record can be MX - mail exchange or TX - text </li>
+ <li>Azure DNS - reliable and secure DNS service to manage and resolve domain names in a VNet. Multiple DNS zones can have the same name, but must exist in different suscriptions or resource groups</li>
+ <li>DNS record set- collection of records in a DNS Zone</li>
+ <li>Azure Private DNS </li>
+ <li>A or AAAA maps an IP address to a domain. </li>
 </ul></p>
 
 
-
+<h3>Azure VNet Peering</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Enables you to seamlessly connect two Azure VNets. Afterwards, the 2 VNets operate as a single network for connectivity purposes.</li>
+ <li>Two types:</li>
+ <ol>
+ <li>Regional - connects Azure VNets that exist in the same region</li>
+ <li>Global - connects Azure VNets that exist in different regions. Not permitted in Azure Govt.</li></ol>
+ <li>Azure VPN Gateway - VNet can only have one VPN Gateway. Gateway transit is supported for both regional and global vnet peering.</li>
+ <li>Must be Network Contributor or Classic Network Contributor to implement VNets</li>
 </ul></p>
 
 
-
+<h3>Azure VPN Gateway</h3>
 <p><ul>
  <li></li>
  <li></li>
