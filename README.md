@@ -541,18 +541,20 @@ Study notes for the Azure Admin exam
  <li>Dynamic addresses are assigned only after a public IP address is associated to an Azure resource</li>
  <li>Static addresses are assigned when a public IP address is created. Static addresses aren't released until a public IP address resource is deleted</li>
  </ol>
- <li></li>
- <li></li>
 </ul></p>
 
 <h3>Load Balancer</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Efficiently distribute incoming network traffic across back-end servers and resources. A load balancer is implemented by using load-balancing rules and health probes</li>
+ <li>Azure Load Balancer can be used for inbound and outbound scenarios.</li>
+ <li>Load-balancing rules are used to specify how to distribute specific types of traffic across multiple virtual machines or services. To configure a load-balancing rule, you need to have a frontend, backend, and health probe for your load balancer</li>
+ <li>public load balancers map the public IP addresses and port numbers of incoming traffic to the private IP addresses and port numbers of virtual machines</li>
+ <li>internal load balancers direct traffic to resources that reside in a virtual network, or to resources that use a VPN to access Azure infrastructure</li>
+ <li> Azure Load Balancer supports three SKU options: Basic, Standard, and Gateway</li>
+  <li>back-end pools contain the IP addresses of the virtual NICs that are connected to your load balancer. When you configure the back-end pools, you can connect to availability sets, virtual machines, or Azure Virtual Machine Scale Sets</li>
+ <li> health probe allows your load balancer to monitor the status of your application. The probe dynamically adds or removes virtual machines from your load balancer rotation based on the machine response to health checks</li>
+ <ol>
+  <li> TCP probe relies on establishing a successful TCP session to a defined probe port</li><li>HTTP probe - the load balancer probes your back-end pool endpoints every 15 seconds. A virtual machine instance is considered healthy if it responds with an HTTP 200 message within the specified timeout period (default is 31 seconds</li></ol>
 </ul></p>
 
 <h3>Application Gateway</h3>
