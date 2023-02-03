@@ -387,12 +387,12 @@ Study notes for the Azure Admin exam
 
 <h3>Configure Azure alerts</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Alerts use action groups that can be reused in multiple groups</li>
+ <li>Alert creation across Azure Monitor, Log Analytics and Application Insight</li>
+ <li>Alert States: New, Acknowledged, Closed</li>
+ <li>Target can be any Azure resource (VM, storage account, VM scale set, Log Analytics workspace, etc)</li>
+ <li>Signal - Metric, Activity Log, Application Insights, Log</li>
+ <li>Alert rule consists of : Resource, Condition, Actions, Alert Details</li>
 </ul></p>
 
 
@@ -484,12 +484,19 @@ Study notes for the Azure Admin exam
 
 <h3>Azure VPN Gateway</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>VPN gateway is a VNet gateway that send encrypted traffic between your Azure VNET and on-prem location over the <b>public</b> internet. It can also send encrypted traffic between Azure VNets</li>
+ <li>Applies encryption BEFORE it reaches the internet through a VPN Tunnel</li>
+ <li>Multiple connections can use the same VPN gateway to share the available gateway bandwidth</li>
+ <li>VNet gateway is composed of 2 or more VMs that are deployed in a subnet = <b>Gateway Subnet</b>. They cannot be directly configured. The VMs contain routing tables and specific gateway services.</li>
+   <ol><li>Gateway subnet contains the IP addresses that are used by your virtual network gateway resources and services</li>
+    <li>Network security groups (NSGs) can't be used to create the gateway subnet.</li>
+   </ol>
+ <li>Site-to-Site config: Create vnets and subnets, Specifiy the DNS server, Configure the VPN device</li>
+ <li>Gateway Types:</li>
+ <ol>
+  <li>Route-based VPNs (Most Common) use routes in the IP forwarding or routing table to direct packets into their corresponding tunnel interfaces. The tunnel interfaces then encrypt or decrypt the packets in and out of the VPN tunnels</li>
+  <li>Policy-based VPNs (Only one VPN Tunnel) encrypt and direct packets through IPsec tunnels based on the IPsec policies. The policies are configured with the combinations of address prefixes between your on-premises network and the Azure virtual network.</li>
+ </ol>
 </ul></p>
 
 
