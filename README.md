@@ -634,10 +634,10 @@ Study notes for the Azure Admin exam
 
 
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li> Azure Load Balancer can spread user requests across multiple virtual machines or other services, allowing you to scale the app to larger sizes than a single virtual machine can support, and ensuring that users get service even when a virtual machine fails</li>
+ <li>scale applications and create high availability for your virtual machines and services.</li>
+ <li>supports inbound and outbound scenarios, provides low latency and high throughput, and scales up to millions of flows for TCP and UDP applications</li>
+ <li>you can use availability sets and availability zones to ensure that virtual machines are always available</li>
+ <li> availability set is a logical grouping that you use to isolate virtual machine resources from each other when they're deployed</li>
+ <li>Availabilty sets allow virtual machines to remain available when a physical server fails.</li>
 </ul></p>
