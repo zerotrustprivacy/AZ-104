@@ -497,27 +497,35 @@ Study notes for the Azure Admin exam
   <li>Route-based VPNs (Most Common) use routes in the IP forwarding or routing table to direct packets into their corresponding tunnel interfaces. The tunnel interfaces then encrypt or decrypt the packets in and out of the VPN tunnels</li>
   <li>Policy-based VPNs (Only one VPN Tunnel) encrypt and direct packets through IPsec tunnels based on the IPsec policies. The policies are configured with the combinations of address prefixes between your on-premises network and the Azure virtual network.</li>
  </ol>
+ <li>Azure VPN Gateway SKU is the most significant implementation decision for the VPN gateway performance</li>
+ <li>The shared key provided from the site-to-site VPN connection is required to set up on-prem VPN gateway</li>
+</ul></p>
+
+
+<h3>Azure ExpressRoute and Azure Virtual WAN</h3>
+<p><ul>
+ <li>Azure ExpressRoute lets you extend your on-premises networks into the Microsoft cloud</li>
+ <li>Microsoft network operates the primary and secondary connections of Azure ExpressRoute circuits in active-active mode</li>
+ <li>Create private connections between Azure datacenters and infrastructure for your on-premises resources</li>
+ <li>ExpressRoute connections enable access to Microsoft Azure services, Microsoft 365 services, and Microsoft Dynamics CRM</li>
+ <li>Azure Virtual WAN (wide-area network): networking service that provides optimized and automated branch connectivity to, and through, Azure. Azure regions serve as hubs that you can choose to connect your branches to.</li>
+ <li>Azure Virtual WAN brings together many Azure cloud connectivity services, such as S2S VPN, User VPN (P2S), and Azure ExpressRoute</li>
+ <li>There are two types of virtual WANs</li>
+ <ol>
+     <li>Basic: implemented only in an S2S VPN connection</li>
+     <li>Standard: implemented with Azure ExpressRoute and a User VPN (P2S). You can also use a Standard WAN with an S2S VPN</li>
+ </ol>
 </ul></p>
 
 
 
+<h3>Configure Routing</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
-</ul></p>
-
-
-
-<h3></h3>
-<p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Azure uses system routes to control traffic for virtual machines</li>
+ <li>A route table contains a set of rules (called routes) that specifies how packets should be routed in a virtual network</li>
+ <li>UDRs control network traffic by defining routes that specify the next hop of the traffic flow. Uses route tables. Network virtual appliance (NVA)</li>
+ <li> <b>service endpoint</b> provides the identity of your virtual network to the Azure service. After service endpoints are enabled in your virtual network, you can secure Azure service resources to your virtual network by adding a virtual network rule to the resources.Service traffic switches to use virtual network private addresses as the source IP addresses when accessing the Azure service from a virtual network</li>
+ <li>Azure Private Link provides private connectivity from a virtual network to Azure platform as a service (PaaS), customer-owned, or Microsoft partner services. Eliminates data exposure to the public internet. keeps all traffic on the Microsoft global network. There's no public internet access. </li>
+ <li>Valid "next hop" type would be virtual appliances, internet, virtual network, or none</li>
+ <li>Virtual network endpoints - extend the private address space in Azure and restrict the flow of traffic</li>
 </ul></p>
