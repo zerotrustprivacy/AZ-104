@@ -413,30 +413,28 @@ Study notes for the Azure Admin exam
 
 <h3>Configure Network Watcher</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Network Watcher provides tools to monitor, diagnose, view metrics, and enable or disable logs for resources in an Azure virtual network</li>
+ <li>Monitor and diagnose networking issues without logging in to your virtual machines (VMs) using Network Watcher. </li>
+ <li>Gain insight into your network traffic using flow logs.</li>
+ <li>Diagnose VPN connectivity issues.</li>
+ <li>Verify IP Flow - Checks if a packet is allowed or denied to or from a virtual machine. enables you to specify a source and destination IPv4 address, port, protocol (TCP or UDP), and traffic direction (inbound or outbound).</li>
+ <li>Next Hop Purpose: To determine if traffic is being directed to the intended destination. Next hop information will help determine if network routing is correctly configured.  returns the route table associated with the next hop</li>
 </ul></p>
 
-<h3>Impove Incident reponse</h3>
-<p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
-</ul></p>
 
 <h3>Montior performance with Azure Monitor VM Insights</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Azure Monitor VM Insights is a feature of Azure Monitor that relies on Azure Monitor Logs. Allows deeper performance analysis of a virtual machine without query building.</li>
+ <li>Azure Monitor VM Insights use a table named InsightsMetrics.</li>
+ <li>Azure Monitor captures monitoring data from the following sources:</li>
+<ol>
+ <li>Application</li>
+ <li>Guest OS</li>
+ <li>Azure resources</li>
+ <li>Azure subscriptions</li>
+<li>Azure tenant</li>
+ </ol>
+ <li>Compute resources in Azure require many agents to help collect monitoring data inside Log Analytics and Azure Monitor</li>
  <li></li>
  <li></li>
 </ul></p>
