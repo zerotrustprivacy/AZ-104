@@ -560,12 +560,16 @@ Study notes for the Azure Admin exam
 
 <h3>Application Gateway</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Azure Application Gateway is a load balancer for web traffic</li>
+ <li>An application gateway listens for incoming traffic to web apps and checks for messages sent via protocols like HTTP. Gateway rules direct the traffic to resources in a back-end pool.</li>
+ <li>two primary methods for routing traffic:</li>
+ <ol>
+ <li>Path-based routing sends requests with different URL paths to different pools of back-end servers</li>
+ <li>Multi-site routing configures more than one web application on the same application gateway instance.</li></ol>
+ <li>front-end IP address receives the client requests. One or more listeners receive the traffic and route the requests to the back-end pool.</li>
+ <li>Routing rules define how to analyze the request to direct the request to the appropriate back-end pool.</li>
+<li>A back-end pool contains web servers for resources like virtual machines or Virtual Machine Scale Sets. Each pool has a load balancer to distribute the workload across the resources.</li>
+<li>Health probes determine which back-end pool servers are available for load-balancing</li>
 </ul></p>
 
 <h3>IP Addressing Schema</h3>
