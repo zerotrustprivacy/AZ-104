@@ -592,35 +592,43 @@ Study notes for the Azure Admin exam
  <li>By default, all subnets in an Azure virtual network can communicate with each other. </li>
 </ul></p>
 
-
+<h3>Network Peering</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>You can use virtual network peering to directly connect Azure virtual networks together. When you use peering to connect virtual networks, virtual machines (VMs) in these networks can communicate with each other as if they're in the same network.</li>
+ <li> traffic between virtual machines is routed through the Azure network.</li>
+ <li>The traffic uses only private IP addresses. It doesn't rely on internet connectivity, gateways, or encrypted connections</li>
+ <li> Using gateway transit, you can enable on-premises connectivity without deploying virtual network gateways to all your virtual networks.Allow gateway transit option  </li>
+</ul></p>
+
+<h3> Azure DNS</h3>
+<p><ul>
+  <li>Azure DNS lets you host your DNS records for your domains on Azure infrastructure</li>
+ <li>DNS, or the Domain Name System, is a protocol within the TCP/IP standard. DNS serves an essential role of translating the human-readable domain names, </li>
+ <li>When you connect by using your on-premises network, the DNS settings come from your server. When you connect by using an external location, like a hotel, the DNS settings come from the internet service provider (ISP).</li>
+ <li>IPv4 is composed of four sets of numbers, in the range 0 to 255, each separated by a dot.</li>
+ <li>IPv6 is a relatively new standard and will eventually replace IPv4. It's made up of eight groups of hexadecimal numbers, each separated by a colon.</li>
+ <li>record types:</li>
+ <ol>
+ <li>A - host record, and is the most common type of DNS record. It maps the domain or host name to the IP address. [Multiple]</li>
+ <li>CNAME - Canonical Name record that's used to create an alias from one domain name to another domain name.</li>
+  <li>MX -  mail exchange record. It maps mail requests to your mail server, whether hosted on-premises or in the cloud</li>
+  <li>TX -  text record used to associate text strings with a domain name. Azure and Microsoft 365 use TXT records to verify domain ownership.</li>
+ </ol>
 </ul></p>
 
 
-<p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
-</ul></p>
-
-
 
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>Network traffic in Azure is automatically routed across Azure subnets, virtual networks, and on-premises networks. This routing is controlled by system routes</li>
+ <li>You can't create or delete system routes, but you can override the system routes by adding custom routes to control traffic flow to the next hop.</li>
+ <li>Next hop type</li>
+ <ol>
+ <li>Virtual Network</li>
+ <li>Internet</li>
+ <li>None</li>
+ </ol>
+ <li>A network virtual appliance (NVA) is a virtual appliance that consists of various layers</li>
+ <li>A network virtual appliance acts like a firewall. It checks all inbound and outbound traffic, and it secures your environment by allowing or denying the traffic. Customers often create network virtual appliances.</li>
 </ul></p>
 
 
