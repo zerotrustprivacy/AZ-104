@@ -435,8 +435,6 @@ Study notes for the Azure Admin exam
 <li>Azure tenant</li>
  </ol>
  <li>Compute resources in Azure require many agents to help collect monitoring data inside Log Analytics and Azure Monitor</li>
- <li></li>
- <li></li>
 </ul></p>
 
 <h1>Configure and Manage VNets</h1>
