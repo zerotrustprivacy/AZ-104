@@ -549,7 +549,8 @@ Study notes for the Azure Admin exam
  <li>Azure Load Balancer can be used for inbound and outbound scenarios.</li>
  <li>Load-balancing rules are used to specify how to distribute specific types of traffic across multiple virtual machines or services. To configure a load-balancing rule, you need to have a frontend, backend, and health probe for your load balancer</li>
  <li>public load balancers map the public IP addresses and port numbers of incoming traffic to the private IP addresses and port numbers of virtual machines</li>
- <li>internal load balancers direct traffic to resources that reside in a virtual network, or to resources that use a VPN to access Azure infrastructure</li>
+ <li>internal load balancers direct traffic to resources that reside in a virtual network, or to resources that use a VPN to access Azure infrastructure. VMs must be in the same Virtual Network</li>
+ <li>load balancer uses a five-tuple (source IP, source port, destination IP, destination port, and protocol type) hash to map traffic to available servers.</li>
  <li> Azure Load Balancer supports three SKU options: Basic, Standard, and Gateway</li>
   <li>back-end pools contain the IP addresses of the virtual NICs that are connected to your load balancer. When you configure the back-end pools, you can connect to availability sets, virtual machines, or Azure Virtual Machine Scale Sets</li>
  <li> health probe allows your load balancer to monitor the status of your application. The probe dynamically adds or removes virtual machines from your load balancer rotation based on the machine response to health checks</li>
