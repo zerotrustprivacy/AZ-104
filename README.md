@@ -519,7 +519,7 @@ Study notes for the Azure Admin exam
 
 
 
-<h3>Configure Routing</h3>
+<h3>Configure Routing and Endpoints</h3>
 <p><ul>
  <li>Azure uses system routes to control traffic for virtual machines</li>
  <li>A route table contains a set of rules (called routes) that specifies how packets should be routed in a virtual network</li>
@@ -528,4 +528,86 @@ Study notes for the Azure Admin exam
  <li>Azure Private Link provides private connectivity from a virtual network to Azure platform as a service (PaaS), customer-owned, or Microsoft partner services. Eliminates data exposure to the public internet. keeps all traffic on the Microsoft global network. There's no public internet access. </li>
  <li>Valid "next hop" type would be virtual appliances, internet, virtual network, or none</li>
  <li>Virtual network endpoints - extend the private address space in Azure and restrict the flow of traffic</li>
+</ul></p>
+
+<h3>Virtual Networks</h3>
+<p><ul>
+ <li>Subnets</li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h3>Load Balancer</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h3>Application Gateway</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+<h3>IP Addressing Schema</h3>
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+</ul></p>
+
+
+
+<p><ul>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
+ <li></li>
 </ul></p>
