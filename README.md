@@ -562,6 +562,7 @@ Study notes for the Azure Admin exam
 <p><ul>
  <li>Azure Application Gateway is a load balancer for web traffic</li>
  <li>An application gateway listens for incoming traffic to web apps and checks for messages sent via protocols like HTTP. Gateway rules direct the traffic to resources in a back-end pool.</li>
+<li> Application Gateway distributes requests across multiple servers by using a round-robin technique. uses the hostname, port, and URL path to route requests to a web server</li>
  <li>two primary methods for routing traffic:</li>
  <ol>
  <li>Path-based routing sends requests with different URL paths to different pools of back-end servers</li>
@@ -574,12 +575,21 @@ Study notes for the Azure Admin exam
 
 <h3>IP Addressing Schema</h3>
 <p><ul>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
+ <li>On-premises IP addressing</li>
+ <ol>
+ <li>Routers,Firewalls,Switches,Network segmentation</li>
+ </ol>
+ <li>Azure IP addressing</li>
+ <ol>
+ <li>Virtual networks,Subnets,Network security groups,Firewalls,Load balancers</li>
+ </ol>
+ <li>three ranges of non-routable IP addresses that are designed for internal networks that won't be sent over internet routers:</li>
+<ol>
+ <li>10.0.0.0 to 10.255.255.255</li>
+ <li>172.16.0.0 to 172.31.255.255</li>
+<li>192.168.0.0 to 192.168.255.255</li>
+ </ol>
+ <li>By default, all subnets in an Azure virtual network can communicate with each other. </li>
 </ul></p>
 
 
