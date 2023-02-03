@@ -532,10 +532,15 @@ Study notes for the Azure Admin exam
 
 <h3>Virtual Networks</h3>
 <p><ul>
- <li>Subnets</li>
- <li></li>
- <li></li>
- <li></li>
+<li>An Azure virtual network is a logical isolation of the Azure cloud that's dedicated to your subscription. You can use virtual networks to provision and manage VPNs in Azure.</li>
+ <li>Subnets - logical divisions within your virtual network to help improve security and performance. IP address space for a subnet must be specified by using CIDR notation </li>
+ <li><b>Private IP addresses</b> enable communication within an Azure virtual network and your on-premises network.</li>
+ <li><b>Public IP addresses</b> allow your resource to communicate with the internet</li>
+ <li>IP addresses are never managed from within a virtual machine. Can be statically assigned or dynamically assigned</li>
+ <ol>
+ <li>Dynamic addresses are assigned only after a public IP address is associated to an Azure resource</li>
+ <li>Static addresses are assigned when a public IP address is created. Static addresses aren't released until a public IP address resource is deleted</li>
+ </ol>
  <li></li>
  <li></li>
 </ul></p>
