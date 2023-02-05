@@ -10,7 +10,7 @@ Study notes for the Azure Admin exam
 <li>Deploy, Update and Delete in a single corrdinated operation with templates</li>
 <li>Use templates for deployment testing, staging, production</li>
 <li>Provides security, auditing, & tagging</li>
-<li>Consistent management layer for portal, PowerShell, CLE, Rest API</li>
+<li>Consistent management layer for portal, PowerShell, CLI, Rest API</li>
 <li>Apply access control to all services in your resource group because RBAC</li>
 </ul></p>
 
