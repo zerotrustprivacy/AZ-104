@@ -442,6 +442,9 @@ Study notes for the Azure Admin exam
 <p><ul>
  <li>Contain a list of security rules that allow/deny inbound or outbound network traffic</li>
  <li>Associated with a subnet or network interface card (NIC)</li>
+ <li>Source: controls inbound traffic.</li>
+ <li>Destination: controls outbound traffic</li>
+ <li>Service: destination protocol and port range</li>
  <li>DMZ acts as a buffer between resources within you VNet and the internet</li>
  <li>Default rules deny all inbound and allow all outbound. You cannot remove the default security rules.</li>
  <li>Each rule has a priority value. <b>The lower the number, the higher the priority.</b></li>
