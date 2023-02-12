@@ -390,6 +390,8 @@ Study notes for the Azure Admin exam
 <h3>Configure Azure alerts</h3>
 <p><ul>
  <li>Alerts use action groups that can be reused in multiple groups</li>
+ <li>An action group is a collection of notification preferences defined by the owner of an Azure subscription</li>
+ <li>Various alerts may use the same action group or different action groups depending on the user's requirements.</li>
  <li>Alert creation across Azure Monitor, Log Analytics and Application Insight</li>
  <li>Alert States: New, Acknowledged, Closed</li>
  <li>Target can be any Azure resource (VM, storage account, VM scale set, Log Analytics workspace, etc)</li>
